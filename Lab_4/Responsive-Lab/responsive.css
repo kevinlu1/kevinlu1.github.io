@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) and (max-width: 955px) {
+
+    #brunch {
+        grid-column: 1/4;
+    }
+
+    #dinner {
+        grid-column: 4/7;
+    }
+
+    #drinks {
+        grid-column: 1/7;
+    }
+
+    #social-list {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 955px) {
+
+    #menu {
+        display: none;
+    }
+
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: "Times New Roman", "Verdana";
+    font-size: 14pt;
+    line-height: 18pt;
+    background-color: #6f0000;
+}
+
+#container {
+    background-color: #ffc4c4;
+    width: 900px;
+    padding: 25px;
+    border: 5px solid #370000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #6f0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+main {
+    margin-top: 5%;
+}
+

@@ -1,0 +1,53 @@
+p {
+    font-family: 'Merriweather', 'cursive';
+    font-size: 18pt;
+    color: #1F85DE;
+    animation: fade-in 1.5s forwards;
+    animation-delay: 1.5s;
+}
+
+body {
+    background-image: linear-gradient(#B5D6F4, #A8D1F5);
+}
+
+.speaker {
+    font-size: 20pt;
+}
+
+.quote {
+    width: 800px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: #1F85DE;
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: move-up 1.5s;
+}
+
+@keyframes fade-in {
+    from {
+        color: #1F85DE;
+    }
+
+    to {
+        color: white;
+    }
+}
+
+@keyframes move-up {
+    from {
+        top: 150%;
+        left: 50%;
+    }
+
+    to {
+        top: 50%;
+        left: 50%;
+    }
+}

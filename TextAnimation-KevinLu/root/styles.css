@@ -1,0 +1,252 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    position: fixed;
+    width: 100%;
+    top: 10%;
+    text-align: center;
+    display: inline-block;
+}
+
+.sublyric {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+}
+
+.roboto {
+    color: white;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 36pt;
+}
+
+.monoton {
+    color: white;
+    font-family: "Monoton", serif;
+    font-size: 48pt;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg)
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes movein {
+    0% {
+        transform: translate(-100%, -100%);
+    }
+
+    100% {
+        transform: translate(0, -50px);
+    }
+}
+
+@keyframes flyinleft {
+    0% {
+        transform: translate(-100%, 0);
+    }
+    
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes flyinright {
+    0% {
+        transform: translate(100%, 0);
+    }
+    
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes flyinbottom {
+    0%{
+        transform: translate(0, 200%);
+    }
+    
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+.animation1 {
+    opacity: 0;
+    animation: fadeout 1.9s forwards;
+    animation-delay: 1.5s;
+    animation-timing-function: step-end;
+}
+
+.animation2 {
+    opacity: 0;
+    float: left;
+    animation: fadeout 2.8s forwards, shake 2s forwards;
+    animation-delay: 1.9s;
+}
+
+.animation3 {
+    opacity: 0;
+    animation: movein 1s forwards, fadeout 3s forwards;
+    animation-delay: 3.7s;
+}
+
+.animation4 {
+    opacity: 0;
+    animation: fadein 0.5s forwards, fadeout 1.9s forwards;
+    animation-delay: 4.6s;
+    animation-timing-function: step-end;
+}
+
+.animation5 {
+    opacity: 0;
+    float: left;
+    animation: fadeout 2.8s forwards, shake 2s forwards;
+    animation-delay: 5.1s;
+}
+
+.animation6 {
+    opacity: 0;
+    animation: fadeout 2.7s forwards, flyinright 0.5s forwards;
+    animation-delay: 7.4s;
+}
+
+.animation7 {
+    opacity: 0;
+    animation: fadeout 2.7s forwards, flyinright 0.5s forwards;
+    animation-delay: 7.4s;
+}
+
+.animation8 {
+    opacity: 0;
+    animation: fadeout 2.7s forwards, flyinbottom 0.5s forwards;
+    animation-delay: 7.4s;
+}
+
+.animation9 {
+    opacity: 0;
+    animation: fadeout 4.7s forwards;
+    animation-delay: 10.1s;
+}
+
+.animation10 {
+    opacity: 0;
+    animation: fadeout 2.4s forwards;
+    animation-delay: 10.9s;
+    animation-timing-function: step-end;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animation11 {
+    opacity: 0;
+    animation: fadeout 1.9s forwards;
+    animation-delay: 13.3s;
+    animation-timing-function: step-end;
+}
+
+.animation12 {
+    opacity: 0;
+    float: left;
+    animation: fadeout 2.8s forwards, shake 2s forwards;
+    animation-delay: 14s;
+}
+
+.animation13 {
+    opacity: 0;
+    animation: movein 1s forwards, fadeout 3s forwards;
+    animation-delay: 16s;
+}
+
+.animation14 {
+    opacity: 0;
+    animation: fadein 0.5s forwards, fadeout 1.9s forwards;
+    animation-delay: 16.6s;
+}
+
+.animation15 {
+    opacity: 0;
+    float: left;
+    animation: fadeout 2.8s forwards, shake 2s forwards;
+    animation-delay: 17.1s;
+}
+
+.animation16 {
+    opacity: 0;
+    animation: fadeout 2.7s forwards, flyinleft 0.5s forwards;
+    animation-delay: 19.4s;
+}
+
+.animation17 {
+    opacity: 0;
+    animation: fadeout 2.7s forwards, flyinright 0.5s forwards;
+    animation-delay: 19.4s;
+}
+
+.animation18 {
+    opacity: 0;
+    animation: fadeout 2.7s forwards, flyinbottom 0.5s forwards;
+    animation-delay: 19.4s;
+}
+
+.animation19 {
+    opacity: 0;
+    animation: fadeout 4.7s forwards;
+    animation-delay: 21.8s;
+}
+
+.animation20 {
+    opacity: 0;
+    animation: fadein 2.4s forwards;
+    animation-delay: 23.9s;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

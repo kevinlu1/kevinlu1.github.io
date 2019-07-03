@@ -1,0 +1,81 @@
+h1 {
+    font-family: 'Pirata One', cursive;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    text-indent: 2%;
+}
+
+h2 {
+    font-family: 'Pirata One', cursive;
+    color: #EDE8DA;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30pt;
+    background-color: #544B33;
+    margin: auto;
+    width: 800px;
+    border: 2px solid black;
+    text-indent: 15pt;
+}
+
+
+body {
+    background-color: #7B652F;
+    background-image: url(images/background.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.subimg {
+    display: block;
+    margin: 15px;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    color: #EDE8DA;
+    text-shadow: 1px 1px 2px black;
+    font-size: 14pt;
+}
+
+
+button {
+    font-family: 'Pirata One', cursive;
+    font-weight: 400;
+    font-size: 14pt;
+    background-color: #D4B360;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+button:active {
+    background-color: #4B7BC3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+
+div {
+    width: 770px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: #544B33;
+}

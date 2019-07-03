@@ -1,0 +1,58 @@
+h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    color: #C35D31;
+    text-align: center;
+}
+
+h2 {
+    color: #EB4700;
+    text-align: center;
+    background-color: #B8B8B8;
+}
+
+h3 {
+    color: #B8B8B8;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+p {
+    font-family: "Arial";
+    font-size: 12pt;
+    text-indent: 10pt;
+    text-align: center;
+}
+
+p.caption {
+    color: #B8B8B8;
+    font-family: "Times New Roman";
+    font-size: 10pt;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.port {
+    max-width: 50%;
+    height: auto;
+}
+
+body {
+    background: #F8F8F8;
+}
+
+
