@@ -1,0 +1,137 @@
+/*** Typography ***/
+main h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    color: #333333;
+}
+
+.number {
+    font-family: "Rubik", sans-serif;
+    font-size: 2em;
+    color: white;
+    background-color: #DEAD1F;
+    display: inline;
+    border-radius: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 0.5%;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container h3 {
+    display: inline;
+    font-size: 1.7em;
+}
+
+.container h4 {
+    display: inline;
+    font-size: 1.5em;
+}
+
+.container h5 {
+    font-size: 1em;
+}
+
+.container h6 {
+    font-size: 2.0em;
+}
+
+.container h7 {
+    font-family: "Rubik", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #DEAD1F;
+}
+
+/*** Styles ***/
+
+body {
+    background-color: #e3d3b8;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(48, 48, 48, 0.5), rgba(51, 51, 51, 0.5)), url(images/menu/drinksline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.banner h1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    background-color: white;
+    display: block;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: inset 3px;
+    border-right: inset 3px;
+    border-bottom: inset 3px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.container h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuGrid {
+    display: grid;
+    grid-auto-columns: auto auto auto;
+    grid-auto-rows: auto auto auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.col1 {
+    margin: 0;
+    grid-column: 1/2;
+}
+
+.col2 {
+    text-align: center;
+    margin: 0;
+    grid-column: 2/3;
+}
+
+.col3 {
+    text-align: center;
+    margin: 0;
+    grid-column: 3/4
+}
+
+.menuGrid2 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    grid-auto-rows: auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+img {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
