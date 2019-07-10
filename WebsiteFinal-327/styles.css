@@ -1,0 +1,126 @@
+/***** Stylesheet *****/
+
+/*** Typography ***/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+button {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+nav button {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons i,
+.iconMobile {
+    font-size: 30pt;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+}
+
+/*** Styles ***/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #74C9B3;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 20% 60% 20%;
+    grid-auto-rows: auto;
+}
+
+.logo {
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons {
+    grid-column: 3/4;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 2%;
+}
+
+nav {
+    text-align: center;
+    display: grid;
+    grid-auto-columns: auto auto auto auto;
+    grid-auto-rows: auto;
+}
+
+nav button:hover {
+    animation: buttonhover 0.5s forwards;
+}
+
+nav button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 1%;
+    width: auto;
+    height: auto;
+}
+
+.home {
+    grid-column: 1/2;
+}
+
+.about {
+    grid-column: 2/3;
+}
+
+.menu {
+    grid-column: 3/4;
+}
+
+.locations {
+    grid-column: 4/5;
+}
+
+
+.iconMobile {
+    grid-column: 3/4;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.iconMobile i {
+    display: none;
+}
+
+
+/*** Animation ***/
+
+@keyframes buttonhover {
+    from {
+        background-color: #333333;
+    }
+
+    to {
+        background-color: #555555;
+        font-size: 0.9em;
+    }
+}

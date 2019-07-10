@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+    nav {
+        display: none;
+    }
+    
+    .icons {
+        display: none;
+    }
+
+    .iconMobile i {
+        display: contents;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    section {
+        grid-template-columns: auto;
+    }
+
+    .left {
+        grid-column: 1/1;
+    }
+
+    .right {
+        grid-column: 1/1;
+        text-align: center;
+    }
+
+    .sanfrancisco,
+    .burlingame,
+    .fostercity,
+    .sanjose,
+    .pasadena,
+    .cupertino,
+    .upland {
+
+        padding: 0px;
+        margin-right: 0;
+   
+    }
+
+}
