@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8">
+
+    <script>
+        function fadeOutEffect() {
+            var fadeTarget = document.getElementById("fg");
+            var fadeEffect = setInterval(function() {
+                if (!fadeTarget.style.opacity) {
+                    fadeTarget.style.opacity = 1;
+                }
+                if (fadeTarget.style.opacity > 0) {
+                    fadeTarget.style.opacity -= 0.2;
+                } else {
+                    clearInterval(fadeEffect);
+                }
+            }, 100);
+            document.getElementById("fg").addEventListener('click', fadeOutEffect);
+        }
+
+        function playMusic() {
+            bgmusic.loop();
+        }
+
+    </script>
+    <title>breathe.</title>
+</head>
+
+<body>
+
+    <div id="fg">
+        <button id="button" value="button" onclick="fadeOutEffect(); playMusic();">Press to Begin</button>
+    </div>
+
+    <div id="bg">
+        <script src="sketch.js"></script>
+    </div>
+    
+    <div id="instr">
+        <p>
+        breathe in when the structure expands. breathe out when the structure contracts.
+        </p>
+        <p class="subtitle">
+        press m to toggle music.
+        </p>
+    </div>
+</body>
+
+</html>
