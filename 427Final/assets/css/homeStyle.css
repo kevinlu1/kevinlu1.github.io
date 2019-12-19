@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "BigNoodleTitling";
+    src: url('big_noodle_titling-webfont.woff2') format('woff2'),
+         url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "BigNoodleTitling";
+    font-size: 64pt;
+    font-size: 4vw;
+    color: #e67233; /* orange */
+}
+
+h2 {
+    font-family: "BigNoodleTitling";
+    font-size: 48pt;
+    font-size: 3vw;
+    color: #e67233;
+}
+
+p {
+    font-family: "Fjalla One", sans-serif;
+    color: #d4a57f;
+    font-size: 1vw;
+}
+
+.headerDiv {
+    align-content: center;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.videoDiv {
+    align-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5vw;
+}
+
+.writeupDiv {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 10%;
